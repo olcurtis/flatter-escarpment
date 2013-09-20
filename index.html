@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>1834 &middot; RCA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+    .header{
+	background: #E4A010;
+	padding: 5% 3% 2% 5%;
+  height: 155px;
+	}
+
+	.featurette-divider {
+      margin: 50px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding: 0% 3% 0% 3%;
+      padding-top: 20px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -30px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-bottom: 40px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+/* FOR TREE
+    -------------------------------------------------- */
+    .node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 3.5px;
+}
+/* END TREE
+    -------------------------------------------------- */
+
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sparkline.min.js"></script>
+
+    </head>
+
+    <body>
+    <div class="header">
+		<h1 class="featurette-heading">RCA Passive House Project</h1>
+		<h1 class="featurette-heading">in the Palisades neighborhood.</h1>
+    </div>
+
+
+
+
+    	<!-- START THE FEATURETTES -->
+
+
+    <div class="featurette" style="margin-top:80px">
+        <img class="featurette-image pull-right" src="img/model-2-sm.png">
+        <h2 class="featurette-heading">Intention</h2>
+        <h2 class="featurette-heading"><span class="muted">is everything.</span></h2>
+        <blockquote>
+        <p class="lead">Clean air, fresh water, and abundant natural light are the universal ingredients to sustain life. We charge architects to find forms that balance these within the physical constraints of site, space, and time.</p>
+         <p class="lead">A compact form emerges as the process blends experienced hands with new materials and methods. We combined these with the lessons of history, the research of today, and an awareness of human behavior to build a better structure.</p>
+         <p class="lead">Browse at will.</p>
+         <small class="pull-right" style="margin-right:650px">Robert & Oliver Curtis<cite title="Source Title"></cite></small>
+         </blockquote>
+    </div>
+
+    <hr class="featurette-divider">
+
+		<!-- START WALKSCORE-->
+	<div class="featurette">
+		<div class="row-fluid">
+		<div class="span7">
+		
+		<div style="padding: 0; margin: 0; border: 0; outline: 0;"><div style="border:0;outline:0;padding:0; margin: 11px 9px 0;">
+		<!-- BEGIN REMOVE -->
+		<h2 style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 0; margin: 0; border: 0; outline: 0; text-decoration: none; vertical-align: baseline; font-style: normal; background: none; text-align: left; font:15px/19px 'Arial Black', Gadget, sans-serif; font-weight: normal; color: #222;"></h2><h3 style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 0; margin: 0; border: 0; outline: 0; text-decoration: none; vertical-align: baseline; font-style: normal; background: none; text-align: left; font:12px/14px Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666; margin: 2px 0 4px 0;">Somewhat Walkable</h3>
+		<!-- END REMOVE -->
+		<div style="padding: 0; margin: 0; border: 0; outline: 0; position: relative; width: 100%; padding-bottom: 30%"> <div style="padding: 0; margin: 0; border: 0; outline: 0; position: absolute; top: 0; bottom: 0; left: 0; right: 0;"> <a href="http://www.walkscore.com/DC/Washington_D.C./The_Palisades?utm_source=badge&utm_medium=responsive&utm_campaign=badge"><!--[if lte IE 8]><img src="//pp.walk.sc/badge/walk/DC/Washington_D.C./The_Palisades.png" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2%;' alt="Walk Score of The Palisades, Washington D.C., DC"><![endif]--> <!--[if gt IE 8]><img src="//pp.walk.sc/badge/walk/DC/Washington_D.C./The_Palisades.svg" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2%;' alt="Walk Score of The Palisades, Washington D.C., DC"><![endif]--> <!--[if !IE]> -->
+<a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="100 is a perfect score:)">
+    <img src="http://pp.walk.sc/badge/walk/DC/Washington_D.C./The_Palisades.svg" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2%;' alt="Walk Score of The Palisades, Washington D.C., DC"><!-- <![endif]--><!--[if lte IE 8]><img src="//pp.walk.sc/badge/transit/DC/Washington_D.C./The_Palisades.png" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2.000000%;' alt="Transit Score of The Palisades, Washington D.C., DC"><![endif]--> <!--[if gt IE 8]><img src="//pp.walk.sc/badge/transit/DC/Washington_D.C./The_Palisades.svg" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2.000000%;' alt="Transit Score of The Palisades, Washington D.C., DC"><![endif]--> <!--[if !IE]> -->
+</a>
+<a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="100 is a perfect score:)">
+    <img src="http://pp.walk.sc/badge/transit/DC/Washington_D.C./The_Palisades.svg" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2.000000%;' alt="Transit Score of The Palisades, Washington D.C., DC"><!-- <![endif]--><!--[if lte IE 8]><img src="//pp.walk.sc/badge/bike/DC/Washington_D.C./The_Palisades.png" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2.000000%;' alt="Bike Score of The Palisades, Washington D.C., DC"><![endif]--> <!--[if gt IE 8]><img src="//pp.walk.sc/badge/bike/DC/Washington_D.C./The_Palisades.svg" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2.000000%;' alt="Bike Score of The Palisades, Washington D.C., DC"><![endif]--> <!--[if !IE]> -->
+</a>
+<a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="100 is a perfect score:)">
+    <img src="http://pp.walk.sc/badge/bike/DC/Washington_D.C./The_Palisades.svg" style='padding: 0; border-radius: 0; box-shadow: none; outline: 0; background: none; width: 30.666667%; border: 0; float: left; margin: 0 0 0 2.000000%;' alt="Bike Score of The Palisades, Washington D.C., DC"><!-- <![endif]-->
+</a>
+    </a></div> </div><p style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 0; margin: 0; border: 0; outline: 0; color: #999; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 13px; clear:both; padding: 8px 0;"> <a style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 0; margin: 0; border: 0; outline: 0; text-decoration: none; vertical-align: baseline; font-style: normal; background: none; text-align: left; color: #999; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 13px;" href="http://www.walkscore.com/DC/Washington_D.C./The_Palisades?utm_source=badge&utm_medium=responsive&utm_campaign=badge">Explore The Palisades on Walk Score</a> </p></div></div>
+		</div>
+		<div class="span4 offset.5">
+			<h2 class="featurette-heading" style="vertical-align: middle">We aren't embarrassed by the walkscore. <span class="muted">It's urban infill.</span></h2>
+		</div>
+		</div>
+		</div>
+	</div>
+
+    	<!-- END WALKSCORE-->
+
+<hr class="featurette-divider">
+  <div class="featurette">
+    <div class="row-fluid">
+    <div class="span6">
+    <h3 class="featurette-heading"><span class="muted">Orient, Insulate, Tape</span></h3>    
+    <h2 class="featurette-heading">That's our approach.</h2>
+    </div>
+
+    <div class="span5 offset1">
+    <div class="media">
+    <a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="Illustration by Jorge Colombo"><img class="pull-right" style="margin: 0px 25px" src="img/dr_wolfgang_feist.png"></a>
+    <div class="media-body">
+    <blockquote class="pull-right">
+        <p>We design the building to fit the people. We don’t design the people to fit the building. This is the philosophy of the Passivhaus.</p>
+        <a href="http://www.insidehousing.co.uk/eco/airtight-promise/6521847.article"><small>Prof. Wolfgang Feist, PH Founder <cite title="Source Title">2012 Interview</cite></small></a>
+    </blockquote> 
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+
+
+      <!-- START DECISION NETWORK-->
+<hr class="featurette-divider">
+<div class="featurette">
+    <canvas id="sitemap" width="800" height="400"></canvas>
+      <div class="pull-right">
+          <a href="http://olcurtis.github.io/decision-tree/"><small class="muted">adapted from Joseph Lstiburek's <cite title="Source Title">"Builder's Guide Series"</cite></small></a>
+      </div>
+      <div>
+        <p class="lead" style="margin-top:40px">This interactive explores the dynamism and complexity involved in making decisions. Simplfied for your convenience.</p>
+        <div class="pull-right" style="margin-right: 400px">
+        <p class="lead" style="line-height:.75">How flexible is the design process?</p>
+        <p class="lead" style="line-height:.75">How does the design respond to time?</p>
+        <p class="lead" style="line-height:.75"><strong>Good design is adaptable.</strong></p>
+        </div>
+      </div>
+      
+    
+</div>
+
+<!-- END DECISION NETWORK-->
+
+<!-- Start Budget-->
+
+<hr class="featurette-divider">
+<div class="featurette">
+
+<h2 class="featurette-heading">
+<div class="row-fluid">
+  <div class="offset3 span6">
+      <p>Form follows finance.<span>
+  <a href="http://www.papress.com/html/book.details.page.tpl?isbn=9781568980447"><small> by Carol Willis<cite title="Source Title"></cite></small></a></span>
+  </p>
+  </div>
+  </div>
+</h2>
+<iframe src="http://young-escarpment-1984.herokuapp.com" width="100%" height="650" frameborder="0"></iframe>
+<div class="pull-right" style="margin:-120px 175px 0px 0px"><small>click the yellow Budget bar to zoom out</small></div>
+<div class="row-fluid">
+<div class="span4">
+<div class="media">
+    <a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="Illustration by Donald Ryan from 'How Buildings Learn'"><img class="pull-left" src="img/layers-sm.png"></a></div>
+    </div>
+<div class="span8">
+    <p class="lead">This treemap is a visual representation of construction costs divided into <u>six partitions</u>. Stewart Brand's adaptation at left was based on the earlier work of Frank Duffy. Organizing a heirarchy of costs, quickly reveals there is no silver bullet to reducing the cost of quality housing.</p></div>
+    <div class="span8">
+    <p class="lead"><strong>Tip: </strong> The best way to find potential savings is to work backwards from the largest expenses. But remember, reducing the structure or the things that protect the structure (i.e. roof, moisture barriers, flashing details) usually isn't the right place to compromise. Have you ever wondered why some houses have cheap windows and vinyl siding? Now, you know.</p></div>
+
+</div>
+</div>
+
+<!--End budget-->
+
+    <!-- /START TIMELINEJS -->
+<hr class="featurette-divider">
+<div class="featurette">
+<div id="timeline-embed"></div>
+    <script type="text/javascript">
+        var timeline_config = {
+            width:              '100%',
+            height:             '600',
+            source:             'https://docs.google.com/spreadsheet/pub?key=0As0nRemoUZO7dFk1cFBrelJpVjRRbTFGanFTb09IMGc&output=html',
+            embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+            start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
+            start_at_slide:     '3',                            //OPTIONAL START AT SPECIFIC SLIDE
+            start_zoom_adjust:  '0',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+            hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+            font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+            debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
+            lang:               'en',                           //OPTIONAL LANGUAGE
+            maptype:            'toner-lines',                   //OPTIONAL MAP STYLE
+            css:                'css/timeline.css',     //OPTIONAL PATH TO CSS
+            js:                 'js/timeline-min.js'    //OPTIONAL PATH TO JS
+        }
+    </script>
+    <script type="text/javascript" src="js/storyjs-embed.js"></script>
+</div>
+<!-- /END TIMELINEJS -->
+
+    <!-- /END THE FEATURETTES -->
+      	
+      	<!-- START THE FLUID GRID -->
+        <hr class="featurette-divider">
+    <div class="featurette">
+    <div class="row-fluid">
+  		<div class="span12">
+    		<h2 class="featurette-heading">Vitals</h2>
+    		<div class="row-fluid">
+      		<div class="span6"><h2 class="lead"> Subjective Assessment <span class="muted">(fluid)</span></h2>
+      		<p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+          <small class="pull-right" style="margin-right:100px">Tom & Xiaofeng, owners--<cite title="Source Title"></cite>May, 2014</small>
+      		</div>
+
+      		<div class="span5 offset1"><h2 class="lead">Metrics <span class="muted">(firm)</span></h2>
+          <d1 class="dl-horizontal"> 
+          <dt><a href="#" data-toggle="tooltip" data-placement="right" rel="tooltip" title="Interior area is outside wall to outside wall. Exterior area is above grade deck exluding the covered entry.">square footage</a></dt>
+				  <dd>2300 sf interior, 600 sf exterior</dd>
+				  <dt>bedrooms, baths</dt>
+				  <dd>3 bedrooms, 3.5 baths</dd>
+				  <dt><a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="Surface area/volume (theoretical maximum would be...)">compactness ratio</a></dt>
+				  <dd>4.5 (surface area/volume)</dd>
+				  <dt><a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="Building airtightness is a proxy measurement for construction quality because it requires execution of precise detailing. Once complete, improving the airtightness requires invasive--expensive--measures, which may only yield a fraction of the potential available during initial construction.">construction quality</a></dt>
+				  <dd><span class="sparkline"></span>     0.60 ACH50 (airtightness)</dd>
+				  <dt>window orientation</dt>
+				  <dd>53% S, 10% W, 27% N, 10% E</dd>
+				  <dt><a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="The percent of visible light that passes through the triple pane windows. Typical windows only transmit 30-55%.">visible transmittance</a></dt>
+				  <dd><span class="sparkpie"></span>     0.71 VT (more light, more happiness)</dd>
+				  <dt>ventilation</dt>
+				  <dd>230 cfm continuous, filtered, undiluted fresh air</dd>
+				  <dt>hot water delivery</dt>
+				  <dd>23 sec. to master bathroom sink (to be tested)</dd>
+			   	<dt><a href="#" data-toggle="tooltip" data-placement="left" rel="tooltip" title="Continuous exterior insulation is like a sweater for your house.">exterior insulation</a></dt>
+				  <dd>yup</dd>
+				  <dt>1st utility bill</dt>
+				  <dd>$tbd (month)</dd>
+				  </d1>
+      		</div>
+    	</div>
+  		</div>
+	</div>
+	</div>
+		<!-- /END THE FLUID GRID -->
+<hr class="featurette-divider">
+<div class="featurette">
+<h2 class="featurette-heading" align="center">Construction Photos Coming Soon!</h2>
+</div>
+
+<!-- sparkline script -->
+<script type="text/javascript">
+$(".sparkpie").sparkline([29,71], {
+    type: 'pie',
+    width: '18',
+    sliceColors: ['#FFFFFF','#E4A010'],
+    offset: -90,
+    borderWidth: 0});
+</script>
+<script type="text/javascript">
+$(".sparkline").sparkline([10,7,9,7,7,8,5,9,7,6,7,5,5.5,7,.6], {
+    type: 'line',
+    width: 'auto',
+    height: '28px',
+    lineColor: '#4c4c4c',
+    fillColor: '#FFFFFF',
+    lineWidth: 1,
+    spotColor: '#0000ff',
+    minSpotColor: '#ff0000',
+    maxSpotColor: false,
+    highlightSpotColor: '#ff0000',
+    highlightLineColor: '#00ff00',
+    spotRadius: 2,
+    normalRangeMin: 5,
+    normalRangeMax: 7.5,
+    drawNormalOnTop: true});
+</script>
+<!-- sparkline script -->
+
+
+<!-- peity script -->
+<script type="text/javascript">
+  $("span.pie").peity("pie") = {
+  colours: ["#E4A010", "#BBBBBB"],
+  delimiter: null,
+  diameter: 16,
+  height: null,
+  width: null
+}
+</script>
+
+<script type="text/javascript">
+
+$(".bar").peity("bar", {
+  colours: ["#4d89f9","#BBBBBB"],
+  height: 16,
+  max: null,
+  min: 10,
+  width: 32
+})
+</script>
+
+
+<!-- peity script -->
+
+ <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="js/arbor.js"></script>
+  <script src="js/arbor-tween.js"></script>
+  <script src="js/arbor-graphics.js"></script>
+  <script src="js/bootstrap-tooltip.js"></script>
+  <script src="js/site.js"></script>
+
+</body>
+
+
+</html>
