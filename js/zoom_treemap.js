@@ -40,7 +40,7 @@ grandparent.append("text")
     .attr("y", 6 - margin.top)
     .attr("dy", ".75em");
 
-d3.json("/assets/budget.json", function(root) {
+d3.json("json/budget.json", function(root) {
 
   initialize(root);
   accumulate(root);

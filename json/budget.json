@@ -1,0 +1,159 @@
+{
+	"name": "Budget",
+	"children": [
+	{
+		"name": "Site",
+		"children": [
+			{
+     			"name": "Permit",
+     			"children": [
+					{ "name": "DC Water Permit", "value": 830 },
+					{ "name": "Public Space Permit", "value": 1400 },
+					{ "name": "Special Tree Permit", "value": 6500 }
+				]
+			},
+			{
+				"name": "Utilities",
+     			"children": [
+					{ "name": "Sewer and Water Service", "value": 19000 },
+					{ "name": "PEPCO New Account", "value": 2000 },
+					{ "name": "Temporary Power Installation", "value": 800 }
+				]
+			},
+			{
+				"name": "Pre-construction",
+     			"children": [
+					{ "name": "Sewer and Water Connection", "value": 6000 },
+					{ "name": "Tree Removal", "value": 9800 },
+					{ "name": "Excavation", "value": 6000 },
+					{ "name": "Grading", "value": 2000 }
+				]	
+			},
+			{
+				"name": "Post-construction",
+     			"children": [
+					{ "name": "Driveway Apron", "value": 2500 },
+					{ "name": "Parking Area", "value": 2250 },
+					{ "name": "Landscaping", "value": 5000 }
+				]	
+			}		
+		]
+	},
+	{
+		"name": "Structure",
+		"children": [
+			{
+     			"name": "Foundation",
+     			"children": [
+					{ "name": "Footings", "value": 4000 },
+					{ "name": "Slab", "value": 4000 },
+					{ "name": "Walls", "value": 16000 },
+					{ "name": "Insulation", "value": 12500 },
+					{ "name": "Finish", "value": 2000 }
+				]
+			},
+			{
+				"name": "Above Grade",
+     			"children": [
+					{ "name": "Walls and Insulation", "value": 64000 },
+					{ "name": "Floor System", "value": 6500 },
+					{ "name": "Moisture Protection", "value": 1500 }
+				]	
+			},
+			{
+				"name": "Fenestration",
+     			"children": [
+					{ "name": "Windows", "value": 37000 },
+					{ "name": "Exterior Doors", "value": 4000 }
+				]
+			},
+			{
+				"name": "Exterior Structures",
+     			"children": [
+					{ "name": "Decks", "value": 10000 },
+					{ "name": "Deck Railings", "value": 800 },
+					{ "name": "Pavilion", "value": 15000 }
+				]
+			}
+		]
+	},
+	{
+		"name": "Skin",
+		"children": [
+			{
+     			"name": "Exterior",
+     			"children": [
+					{ "name": "Siding/Trim", "value": 46000 },
+					{ "name": "Roofing", "value": 12000 }
+				]
+			}
+		]
+	},
+	{
+		"name": "Services",
+		"children": [
+			{
+     			"name": "Plumbing",
+     			"children": [
+					{ "name": "Installation", "value": 4000 },
+					{ "name": "Fixtures", "value": 4000 }
+				]
+			},
+			{
+				"name": "Fire Protection",
+     			"children": [
+					{ "name": "Installation", "value": 3700 },
+					{ "name": "Engineering", "value": 800 }
+				]
+			},
+			{
+				"name": "Electrical",
+     			"children": [
+					{ "name": "Installation", "value": 21000 },
+					{ "name": "Fixtures", "value": 10000 }
+				]
+			},
+			{
+				"name": "Mechanical",
+     			"children": [
+					{ "name": "Heating and Cooling", "value": 11000 },
+					{ "name": "Ventilation", "value": 6750 }
+				]
+			}
+		]
+	},
+	{
+		"name": "Space Plan",
+		"children": [
+			{
+     			"name": "Interior Finish",
+     			"children": [
+					{ "name": "Walls", "value": 2500 },
+					{ "name": "Wall Finish", "value": 16000 },
+					{ "name": "Finish Floors", "value": 16000 },
+					{ "name": "Stairs", "value": 12000 },
+					{ "name": "Casework", "value": 20000 },
+					{ "name": "Trim", "value": 10000 },
+					{ "name": "Tile", "value": 13000 },
+					{ "name": "Paint", "value": 4000 }
+				]
+			},
+			{
+				"name": "Specialities",
+     			"children": [
+					{ "name": "Kitchen Cabinets", "value": 12000 },
+					{ "name": "Bath Cabinets & Accessories", "value": 2500 },
+					{ "name": "Countertops", "value": 6000 },
+					{ "name": "Fans", "value": 2200 }
+				]
+			}
+		]
+	},
+	{
+		"name": "Stuff",
+		"children": [
+			{"name": "Appliances", "value": 13100}
+     		]
+    	}
+	]
+}
